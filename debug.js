@@ -23,3 +23,9 @@ console.log(`Net working capital is: ${netWorkingCapital}`);
 // For this I manually found misspelled names of variables and fixed them
 
 // Catch unclosed parentheses, brackets, braces, and quotes
+let myArray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>  previous + current);
+console.log(`Sum of array values is: ${arraySum}`);
+// Similar to previous I manually found missing brackets and braces
+
+//
