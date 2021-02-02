@@ -7,4 +7,12 @@ console.log(a); //This log is added to ensure the value of a is correct
 let sumAB = a + b;
 console.log(sumAB);
 
+// typeof to check the type of a variable
+// Quick tip JSON = JavaScript Object Notation
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+console.log(typeof seven);
+console.log(typeof three);
+
 //
