@@ -28,4 +28,6 @@ let arraySum = myArray.reduce((previous, current) =>  previous + current);
 console.log(`Sum of array values is: ${arraySum}`);
 // Similar to previous I manually found missing brackets and braces
 
-//
+// Catching mixed usage of single/ double quotes "" ''
+let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
+console.log(innerHtml);
