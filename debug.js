@@ -98,4 +98,9 @@ let matrix = zeroArray(3, 2);
 console.log(matrix);
 // error was row variable was declared outside of the loop
 
-//Preventing infinite
+//Preventing infinite loops with a valid terminal condition
+function myFunc() {
+    for (let i = 1; i <= 4; i += 2) { // original was i != 4; which never happens
+      console.log("Still going!");
+    }
+  }
