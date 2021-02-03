@@ -65,4 +65,15 @@ function raiseToPower(b, e) {
   let power = raiseToPower(base, exp); // mistake was (exp, base) causing 3^2 not 2^3
   console.log(power);
 
-//
+// Catch off by one errors when using indexing
+function countToFive() {
+    let firstFive = "12345";
+    let len = firstFive.length;
+    for (let i = 0; i < len; i++) { //error was i = 1; i <= len;
+      console.log(firstFive[i]); 
+    }
+  }
+  
+  countToFive();
+
+// 
