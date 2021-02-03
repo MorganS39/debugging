@@ -55,4 +55,14 @@ function getNine() {
   let result = getNine(); // = getNine is equal to function, = getNine() is equal to number
   console.log(result);
 
+// Catching arguments passed in the wrong order when calling a function
+function raiseToPower(b, e) {
+    return Math.pow(b, e);
+  }
+  
+  let base = 2;
+  let exp = 3;
+  let power = raiseToPower(base, exp); // mistake was (exp, base) causing 3^2 not 2^3
+  console.log(power);
+
 //
