@@ -52,18 +52,18 @@ function getNine() {
     return x + y;
   }
   
-  let result = getNine(); // = getNine is equal to function, = getNine() is equal to number
-  console.log(result);
+let result = getNine(); // = getNine is equal to function, = getNine() is equal to number
+console.log(result);
 
 // Catching arguments passed in the wrong order when calling a function
 function raiseToPower(b, e) {
     return Math.pow(b, e);
   }
   
-  let base = 2;
-  let exp = 3;
-  let power = raiseToPower(base, exp); // mistake was (exp, base) causing 3^2 not 2^3
-  console.log(power);
+let base = 2;
+let exp = 3;
+let power = raiseToPower(base, exp); // mistake was (exp, base) causing 3^2 not 2^3
+console.log(power);
 
 // Catch off by one errors when using indexing
 function countToFive() {
@@ -74,7 +74,7 @@ function countToFive() {
     }
   }
   
-  countToFive();
+countToFive();
 
 // Use caution when reinitializing variables inside a loop
 function zeroArray(m, n) {
@@ -94,8 +94,8 @@ function zeroArray(m, n) {
     return newArray;
   }
   
-  let matrix = zeroArray(3, 2);
-  console.log(matrix);
-  // error was row variable was declared outside of the loop
+let matrix = zeroArray(3, 2);
+console.log(matrix);
+// error was row variable was declared outside of the loop
 
-//
+//Preventing infinite
